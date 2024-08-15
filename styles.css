@@ -1,0 +1,175 @@
+/* Estilo general del cuerpo */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pinyon+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco para la foto */
+    padding: 20px;
+}
+
+.photo-header img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title-header {
+    color: #2b5a56; /* Color negro para el título "Nuestra Boda" */
+    font-size: 56px;
+    font-weight: normal;
+    font-family: "Allura", cursive;
+    margin: 0;
+}
+
+.subtitle-header {
+    color: #1e50458c; /* Tono de verde más oscuro */
+    font-size: 45px;
+    font-family: 'Allura', sans-serif; /* Tipografía más moderna para los nombres */
+    margin: 1px 0;
+}
+
+/* Historia */
+.story {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #8b9387;
+}
+
+.story img {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.storytext {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* Información del evento */
+.info {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.info p {
+    font-size: 20px;
+    color: #4c8a32;
+    font-family: "Roboto", sans-serif;}
+
+h2 {
+    color: #35731a;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Calendario */
+.calendar {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", sans-serif;
+}
+
+.calendar ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0px;
+}
+
+.first-day {
+    grid-column-start: 3;
+}
+
+li {
+    text-align: right;
+    color: #353a33;
+    font-family: "Roboto", sans-serif;
+}
+
+.day-name {
+    text-align: center;
+    color: #4c8a32;
+    background-color: #8b9387;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.day {
+    background-color: #35731a;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.info p{
+    color: #f8f8f8;
+}
+/* Confirmación */
+.confirmacion {
+    background-color: #8b9387;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 600px;
+    color: #ffffff;
+}
+
+.confirmacion p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #616f5b;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4c8a32;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #35731a;
+}
